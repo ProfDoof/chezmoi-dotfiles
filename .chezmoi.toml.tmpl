@@ -1,0 +1,9 @@
+[data]
+{{ if eq .chezmoi.os "windows" }}
+talonHome="AppData/Roaming/talon"
+{{ else }}
+talonHome=".talon"
+{{ end }}
+
+[git]
+    autoCommit = true

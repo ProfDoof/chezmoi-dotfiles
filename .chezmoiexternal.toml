@@ -1,0 +1,28 @@
+[ "{{ .talonHome }}/user/community" ]
+    type = "git-repo"
+    url = "https://github.com/talonhub/community.git"
+    refreshPeriod = "24h"
+[ "{{ .talonHome }}/user/rango-talon" ]
+    type = "git-repo"
+    url = "https://github.com/david-tejada/rango-talon.git"
+    refreshPeriod = "24h"
+[ "{{ .talonHome }}/user/cursorless-talon" ]
+    type = "git-repo"
+    url = "https://github.com/cursorless-dev/cursorless-talon.git"
+    refreshPeriod = "24h"
+[ "{{ .talonHome }}/user/talonhud" ]
+    type = "git-repo"
+    url = "https://github.com/chaosparrot/talon_hud.git"
+    refreshPeriod = "24h"
+[ "{{ .talonHome }}/user/speak-the-spire-talon" ]
+    type = "git-repo"
+    url = "https://github.com/ProfDoof/speak-the-spire-talon.git"
+    refreshPeriod = "24h"
+[ "{{ .talonHome }}/user/personal-talon" ]
+    type = "git-repo"
+    url = "https://github.com/ProfDoof/talon-files.git"
+    refreshPeriod = "24h"
+[ "{{ .talonHome }}/user/talon-filetree-commands" ]
+    type = "git-repo"
+    url = "https://github.com/paul-schaaf/talon-filetree-commands.git"
+    refreshPeriod = "24h"
