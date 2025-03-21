@@ -1,0 +1,19 @@
+[terminal.shell]
+args = ["--cd ~"]
+program = 'C:\Windows\System32\wsl.exe'
+
+[env]
+TERM = "xterm-256color"
+
+[window]
+option_as_alt = "Both"
+
+dimensions.columns = 130
+dimensions.lines = 42
+position.x = 250
+position.y = 20
+
+[cursor]
+style.blinking = "On"
+
+[terminal]
