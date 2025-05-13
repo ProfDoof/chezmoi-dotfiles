@@ -1,6 +1,0 @@
-{{ if ne .chezmoi.os "windows" }}
-AppData/Roaming/talon
-{{ end }}
-{{ if (and (ne .chezmoi.os "darwin") (ne .chezmoi.os "linux")) }}
-.talon
-{{ end }}
